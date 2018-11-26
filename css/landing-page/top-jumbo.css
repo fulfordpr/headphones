@@ -1,0 +1,84 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .info-container{
+    position: relative;
+    top: 200px;
+}
+.container .info-container h1{
+    color: #6066F2;
+    font-size: 72px;
+}
+
+.container .info-container p{
+    color: black;
+    font-size: 24px;
+}
+
+.container .leftSide{
+    width: 40%;
+    float: left;
+}
+
+.container .rightSide img{
+    width: 100%;
+    position: relative;
+    right: -100px;
+}
+.container .rightSide{
+    width: 60%;
+    float: left;
+}
+.email-area{
+    background: white;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    width:480px;
+    color: gray;
+    border-radius: 50px;
+}
+.email-area i{
+    font-size: 16px;
+    color: gray;
+    padding-left: 17px;
+}
+.email-area input{
+    font-size: 16px;
+    border: none;
+    padding: 30px 5px 30px 10px;
+    width: 290px;
+   
+}
+.email-area input:focus{
+    outline: none;
+}
+
+.email-area .submit-btn{
+    background:#6066F2;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: .2s;
+}
+.email-area .submit-btn:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.large-num{
+    font-size: 400px;
+    font-weight: bold;
+    color: rgba(100, 50, 230, 0.05);
+    position: absolute;
+    top: 100px;
+
+}
+
+
+#top-jumbo{
+    background-image: url('../../img/wave1.png');
+    background-size: cover;
+
+    height: 1300px;
+}

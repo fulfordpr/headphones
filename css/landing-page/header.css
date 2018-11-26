@@ -1,0 +1,84 @@
+header{
+    padding: 20px  40px;
+}
+header:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+header .menu a{
+    color: #6066F2;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid white;
+    transition:all .5s ease-in-out;
+}
+header .menu a:hover{
+    border-bottom:3px solid #DFC7F2;
+}
+header .logo{
+    float: left;
+    margin-right: 28px;
+}
+header .logo img{
+    width:50px;
+}
+header .menu{
+    float: left;
+    position: relative;
+    top: 5px;
+}
+header .menu a{
+    text-transform: uppercase;
+    padding: 10px;
+}
+header .header-btns button{
+    float: right;
+    letter-spacing: 3px;  
+    
+}
+
+header .header-btns a{
+    text-decoration: none;
+    
+    
+}
+.blue-btn, .orange-btn{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    margin-left: 20px;
+    transition:all .5s ease-in-out;  
+  
+}
+header .header-btns button:hover i{
+    transform:rotateY(180deg);
+}
+header .header-btns i{
+    margin-left: 10px;
+    font-size: 18px;
+    transition:all .5s ease-in-out;  
+}
+header .header-btns .blue-btn{
+    color: white;
+    background: #6066F2;
+    padding: 15px 25px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+header .header-btns .orange-btn{
+    color: white;
+    background: #FDA83B;
+    padding: 15px 25px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
+.header-btns button{
+    border: none;
+    transition:all .3s ease-in-out;     
+}
+.header-btns button a{
+    color: white;
+}
+.header-btns button:hover{
+    transform: scale(1.1);
+}
